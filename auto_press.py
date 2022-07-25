@@ -13,16 +13,6 @@ print(f"Starting in {initial_wait} sec...")
 pyautogui.countdown(initial_wait)
 
 
-def presser():
-	pass
-
-
-def hotkey(*args):
-	pyautogui.press(hotkey(*args))
-
-
-def clicker():
-	pass
 
 
 while active:
@@ -35,9 +25,21 @@ while active:
 		print(fse)
 		print("Program Terminating.")
 	except Exception as e:
-		print(f"Error: {e}")
+		print(f"Exception: {e}")
 
 
+
+
+def presser():
+	pass
+
+
+def hotkey(*args):
+	pyautogui.press(hotkey(*args))
+
+
+def clicker():
+	pass
 
 
 
