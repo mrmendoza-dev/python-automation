@@ -18,7 +18,7 @@ while active:
 
 		"""
 		- If match is found, enter conditional
-		- Save current mouse coordinates before moving to target
+		- new_files current mouse coordinates before moving to target
 		- Center target and click, return to original position and repeat
 		"""
 		if target is not None:
