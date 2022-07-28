@@ -1,8 +1,8 @@
 # python-automation
 Various automation scripts for Python
 
-##Features
-- Screenscraper
+### Features
+- Screenscraping
 - Auto Clickers
 - Auto Key Pressing
 - Automatic Typing
